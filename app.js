@@ -2,6 +2,6 @@
 import config from "./config/config.json";
 console.log(config.name);
 
-import models from "./models/index.js";
-const user = new models.User();
-const product = new models.Product();
+import {User, Product} from "./models";
+const user = new User();
+const product = new Product();
